@@ -1,0 +1,39 @@
+{
+ "original": 1445,
+ "valid": 1145,
+ "defective": 300,
+ "fixed": 175,
+ "dropped": 125,
+ "cleaned": 1320,
+ "defect_occurrences": {
+  "dev_leakage_verbatim_copy": 30,
+  "priority_violates_rules": 60,
+  "wrong_key_prio_instead_of_priority": 70,
+  "date_not_iso_DDMMYYYY": 30,
+  "junk_ticket_unsupported_label": 10,
+  "truncated_or_invalid_json": 25,
+  "txn_id_not_normalised": 20,
+  "amount_in_rupees_not_paise": 25,
+  "exact_duplicate": 60
+ },
+ "category_before": {
+  "payment_failed": 425,
+  "account_access": 186,
+  "refund": 315,
+  "fraud": 92,
+  "kyc": 168,
+  "offers": 155,
+  "other": 104
+ },
+ "category_after": {
+  "payment_failed": 384,
+  "account_access": 171,
+  "refund": 289,
+  "fraud": 82,
+  "kyc": 160,
+  "offers": 140,
+  "other": 94
+ },
+ "dev_leak_rows": 30,
+ "raw_condition_rows": 1415
+}

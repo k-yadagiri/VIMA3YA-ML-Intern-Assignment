@@ -1,0 +1,24 @@
+
+# Python cache
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Model checkpoints
+checkpoints/
+*.bin
+*.pt
+*.pth
+*.gguf
+
+# Secrets
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
